@@ -22,3 +22,12 @@ Finding: the correction barely changes the result. What really limits Obi is geo
 
 ## Why I added nationwide shocks
 My first version only had zone-level randomness, which mostly cancelled out and gave Tinubu 96.9%. That was overconfident, so I added nationwide shocks to reflect how real elections move.
+
+## Kwankwaso's 2023 voters
+Kwankwaso won over 1.5 million votes in 2023, mostly in Kano, but he isn't in the 2027 poll, so the model was ignoring those voters. In each simulation, I now split his 2023 share randomly between Tinubu, Obi and Atiku, because there's no data on where they'll go.
+
+Result:
+- Before: Tinubu 63.0%, Atiku 17.6%, Obi 0.3%, runoff 19.0%
+- After: Tinubu 63.8%, Atiku 19.1%, Obi 0.7%, runoff 16.4%
+
+Atiku gains the most, since Kwankwaso's base overlaps with his northern support. Runoffs drop because more candidates clear 25% in northern states. Tinubu remains the favourite.
