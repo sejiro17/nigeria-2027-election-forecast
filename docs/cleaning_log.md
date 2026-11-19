@@ -50,3 +50,23 @@ I added geopolitical zones and compared each zone's total with INEC's official f
 
 **To update**
 This is the preliminary register. INEC publishes the final one on 15 December 2026, so I'll swap in the official figures then.
+
+## 2027 Oxford-Metro Poll (by zone)
+
+**Where the data came from**
+The poll was only reported in a news article (P.M. News), not as a table, so I built the CSV by hand from the zone figures in the text.
+
+**Filling the gaps**
+The article left out some zone numbers. For Tinubu and Obi, only one zone was missing each, so I worked it out as their national total minus the zones I had:
+- Tinubu, South East: 694
+- Obi, North West: 1,613
+
+I sanity-checked both: the three candidates' numbers stayed below the zone's participants. Atiku had two missing zones (North Central and South West), so there's no way to split them. I left those blank.
+
+**Checking the percentages**
+I calculated each candidate's share per zone and compared it with the article's figures, for example Tinubu North West 43.10%, Obi South East 63.97% and Atiku North East 55.46%. All matched.
+
+**Limitations**
+- The zones add up to 69,054, not the 69,110 total, so 56 responses have no zone. My two filled numbers could be off by up to 56.
+- It's a self-selected online poll and not weighted. Lagos and the FCT make up over half the responses, and the North East has only 2,227.
+- Because of this, I use the poll to nudge the 2023 baseline, not to replace it.
