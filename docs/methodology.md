@@ -67,3 +67,5 @@ Finding: even a modest shift of Atiku's supporters makes Obi the favourite. Ther
 I ran the simulation for every combination of two "what if" settings: the share of Atiku's supporters who switch to Obi (0–50%) and how many points Tinubu drops (0–10). That's 36 scenarios, saved in data/final/tableau_scenarios.csv.
 
 Finding: if Tinubu loses support but nobody switches, Atiku benefits most, not Obi. At a 4-point drop Atiku overtakes Tinubu, and at 10 points he wins about 55% of the time. His support is spread across the North and South, so he clears 25% in more states. Obi only becomes the favourite when Atiku's supporters switch to him.
+
+Note: on the dashboard slider, each value is the midpoint of a ±5 range (e.g. 20 = 15–25% of Atiku's supporters switching).
