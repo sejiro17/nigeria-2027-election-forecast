@@ -25,6 +25,11 @@ I also recalculated every candidate's percentage from the votes, and they all ma
 **Checking the percentages**
 I recalculated each candidate's share from the raw votes and compared it to Wikipedia's figures. Every state matched to within rounding.
 
+**Matching state names across datasets**
+When I compared the 2023 results with the 2027 register, the FCT didn't match: Wikipedia wrote it as "F.C.T." and the register uses "FCT". I standardised it to "FCT" in the cleaning notebook.
+
+Lesson learned: my first "Run All" silently stopped at an old error cell, so the cleaned file never re-saved. I deleted that cell, re-ran, and confirmed the fix.
+
 ## 2027 Voter Register (preliminary, INEC, Oct 2026)
 
 **Where the data came from**
