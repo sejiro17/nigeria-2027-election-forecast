@@ -24,3 +24,21 @@ I also recalculated every candidate's percentage from the votes, and they all ma
 
 **Checking the percentages**
 I recalculated each candidate's share from the raw votes and compared it to Wikipedia's figures. Every state matched to within rounding.
+
+## 2027 Voter Register (preliminary, INEC, Oct 2026)
+
+**Where the data came from**
+INEC only published the figures as an image, with no state-by-state table. So I built the CSV by hand from news reports quoting the INEC chairman: Punch (via Substack) for all 37 states, plus ThisDay, Daily Trust and others for exact figures.
+
+**Exact vs rounded**
+15 states have exact figures. The other 22 were only reported rounded to the nearest 10,000, so I added a `precision` column to mark which is which.
+
+**Conflicts I found**
+- Yobe: one outlet listed 1,733,641 under Ondo instead. Punch puts Ondo at 2.12 million, so 1,733,641 belongs to Yobe.
+- Gombe: outlets disagree, 1,768,566 vs 1,768,560. Marked "disputed".
+
+**Sum check**
+Total: 103,456,535 vs INEC's 103,428,715, a difference of 27,820 (0.03%). That's within the range expected from rounding 22 states, so no typos.
+
+**To update**
+This is the preliminary register. INEC publishes the final one on 15 December 2026, so I'll swap in the official figures then.
