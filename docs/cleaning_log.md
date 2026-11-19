@@ -45,5 +45,8 @@ INEC only published the figures as an image, with no state-by-state table. So I 
 **Sum check**
 Total: 103,456,535 vs INEC's 103,428,715, a difference of 27,820 (0.03%). That's within the range expected from rounding 22 states, so no typos.
 
+**Zone check**
+I added geopolitical zones and compared each zone's total with INEC's official figures. All six are within about 14,000, and the gaps add up to exactly 27,820, the same as the national sum check. The South East has the biggest gap because all five of its states are rounded figures.
+
 **To update**
 This is the preliminary register. INEC publishes the final one on 15 December 2026, so I'll swap in the official figures then.
