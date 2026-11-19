@@ -23,3 +23,11 @@
 - Retrieved: November 19, 2026
 - Saved as: data/raw/2027_poll_oxford_metro_by_zone.csv
 - Notes: Self-selected online poll, not weighted. Lagos and FCT make up over half of responses.
+
+## SBM Intelligence Voter Sentiment Tracker, Wave 1
+- Source: SBM Intelligence, "Nigeria 2027: How the Country May Vote" (June 2026)
+- Link: https://www.sbmintel.com/wp-content/uploads/2026/06/202606_VST-W1.pdf
+- Data as of: 25 May 2026
+- Retrieved: November 19, 2026
+- Saved as: data/raw/2026_sbm_zone_sentiment.csv
+- Notes: 829 face-to-face interviews in 8 states, unweighted. Used for the "why" layer only, not for vote estimates.

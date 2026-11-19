@@ -70,3 +70,23 @@ I calculated each candidate's share per zone and compared it with the article's 
 - The zones add up to 69,054, not the 69,110 total, so 56 responses have no zone. My two filled numbers could be off by up to 56.
 - It's a self-selected online poll and not weighted. Lagos and the FCT make up over half the responses, and the North East has only 2,227.
 - Because of this, I use the poll to nudge the 2023 baseline, not to replace it.
+
+## SBM Voter Sentiment Tracker (by zone)
+
+**Where the data came from**
+Typed in by hand from the report's zone table (page 10) and Tinubu's rating map (page 12).
+
+**Why I'm not using its vote numbers**
+Only 829 people from 8 states, unweighted, and 37% hold degrees. The North West is mostly Kano and the North East only Bauchi. It puts APC at 11% nationally, when Tinubu got 37% in 2023.
+
+**Errors I found in the report**
+- Page 11: the low and high turnout NDC figures (31.7% and 64.9%) are copied into every zone row.
+- Page 11: the text says the North East has some of the strongest turnout intention, but its own figure (43.3%) is the second lowest.
+- Page 14: the pie charts for the North West and North East are swapped on the map.
+- North East undecided is 16.3% in the table but 16.4% in the text. I used the table.
+
+**Suspicious values**
+North Central shows 0.0% undecided and 0% "do not verify" from about 100 people. Kept as reported, but flagged.
+
+**Key fact**
+Kwankwaso left the ADC with Obi to form the NDC, which changed how I model his 2023 voters.
