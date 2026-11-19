@@ -52,3 +52,13 @@ Results (10,000 simulations each):
 - Coalition, 40–70% of Atiku voters follow: Tinubu 66.3%, Obi 33.7%, runoff 0%
 
 Finding: a coalition alone doesn't decide the election. The outcome flips depending on how many of Atiku's voters actually follow him to Obi. There are no runoffs, because in a two-way race the winner almost always clears 25% in 24 states.
+
+## Scenario: Atiku's supporters switch to Obi
+I replaced the coalition option with a more realistic scenario. Atiku stays on the ballot, but a share of his supporters switches to Obi. I also added an optional drop in Tinubu's support, reflecting the SBM survey finding that 60–92% of people in every zone say the country is going the wrong way. The lost points are split evenly between Obi and Atiku. Both the switch rate and the drop are my own assumptions, not measured.
+
+Results (10,000 simulations each):
+- As things stand: Tinubu 61.6%, Atiku 18.6%, Obi 1.2%, runoff 18.6%
+- 20–40% of Atiku voters switch: Obi 47.7%, Tinubu 35.8%, Atiku 0.1%, runoff 16.4%
+- Switch + Tinubu drops 5 points: Obi 69.6%, Tinubu 9.4%, Atiku 0.2%, runoff 20.7%
+
+Finding: even a modest shift of Atiku's supporters makes Obi the favourite. There's no data yet showing this switch happening, so the base forecast still favours Tinubu. These are "what if" scenarios, which the dashboard will let people explore with sliders.
