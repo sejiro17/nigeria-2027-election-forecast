@@ -1,5 +1,8 @@
 # Nigeria 2027 Presidential Election Forecast
 
+## Live dashboard
+[View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/adewale.adegunwa/viz/Nigeria2027ElectionForecast/Nigeria2027Forecast)
+
 A data analysis project estimating each candidate's chances in Nigeria's January 2027 presidential election, and explaining why.
 
 ## Goals
@@ -16,7 +19,7 @@ A data analysis project estimating each candidate's chances in Nigeria's January
 - `tableau` – dashboard files
 
 ## Status
-In progress, data collection stage.
+Complete. To be updated with INEC's final voter register (15 Dec 2026).
 
 ## Author
 Sejiro Adewale
