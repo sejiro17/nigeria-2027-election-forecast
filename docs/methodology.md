@@ -31,3 +31,14 @@ Result:
 - After: Tinubu 63.8%, Atiku 19.1%, Obi 0.7%, runoff 16.4%
 
 Atiku gains the most, since Kwankwaso's base overlaps with his northern support. Runoffs drop because more candidates clear 25% in northern states. Tinubu remains the favourite.
+
+## Kwankwaso's voters now lean towards Obi
+The SBM Intelligence report (June 2026) shows Kwankwaso left the ADC with Obi to form the NDC, so his 2023 voters are more likely to back Obi than to split evenly.
+
+I changed the random split of his voters from equal (1, 1, 1) to leaning towards Obi (2, 6, 2), in the order Tinubu, Obi, Atiku. On average that sends about 60% to Obi and 20% each to Tinubu and Atiku, with variation in every simulation. These weights are my own assumption, not from a source.
+
+Result:
+- Equal split: Tinubu 63.8%, Atiku 19.1%, Obi 0.7%, runoff 16.4%
+- Leaning to Obi: Tinubu 61.6%, Atiku 18.6%, Obi 1.2%, runoff 18.6%
+
+Finding: the alliance barely helps Obi. Kwankwaso's 2023 votes were concentrated in Kano and nearby states, so they don't help Obi reach 25% in enough northern states.
