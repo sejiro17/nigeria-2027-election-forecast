@@ -42,3 +42,13 @@ Result:
 - Leaning to Obi: Tinubu 61.6%, Atiku 18.6%, Obi 1.2%, runoff 18.6%
 
 Finding: the alliance barely helps Obi. Kwankwaso's 2023 votes were concentrated in Kano and nearby states, so they don't help Obi reach 25% in enough northern states.
+
+## Coalition scenario: Atiku joins Obi
+There are reports that Atiku may join Obi in the NDC (unconfirmed as of November 2026). To test it, I added a coalition option to the simulation: Atiku drops out, and a share of his voters moves to Obi, with the rest going to Tinubu. How many follow him is my own assumption, so I tested two ranges.
+
+Results (10,000 simulations each):
+- As things stand: Tinubu 61.6%, Atiku 18.6%, Obi 1.2%, runoff 18.6%
+- Coalition, 60–90% of Atiku voters follow: Obi 82.2%, Tinubu 17.8%, runoff 0%
+- Coalition, 40–70% of Atiku voters follow: Tinubu 66.3%, Obi 33.7%, runoff 0%
+
+Finding: a coalition alone doesn't decide the election. The outcome flips depending on how many of Atiku's voters actually follow him to Obi. There are no runoffs, because in a two-way race the winner almost always clears 25% in 24 states.
